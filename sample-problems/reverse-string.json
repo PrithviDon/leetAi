@@ -1,0 +1,13 @@
+{
+  "name": "Reverse String",
+  "description": "Write a function that reverses a string. The input string is given as a single string s; return the reversed string.",
+  "difficulty": "EASY",
+  "functionName": "reverseString",
+  "starterCodeJs": "function reverseString(s) {\n  // your code here\n}",
+  "starterCodePython": "def reverseString(s):\n    # your code here\n    pass",
+  "testCases": [
+    { "input": "[\"hello\"]", "expectedOutput": "\"olleh\"", "hidden": false },
+    { "input": "[\"Java\"]", "expectedOutput": "\"avaJ\"", "hidden": false },
+    { "input": "[\"a\"]", "expectedOutput": "\"a\"", "hidden": true }
+  ]
+}

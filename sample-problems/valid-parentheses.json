@@ -1,0 +1,14 @@
+{
+  "name": "Valid Parentheses",
+  "description": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Brackets must close in the correct order.",
+  "difficulty": "EASY",
+  "functionName": "isValid",
+  "starterCodeJs": "function isValid(s) {\n  // your code here\n}",
+  "starterCodePython": "def isValid(s):\n    # your code here\n    pass",
+  "testCases": [
+    { "input": "[\"()\"]", "expectedOutput": "true", "hidden": false },
+    { "input": "[\"()[]{}\"]", "expectedOutput": "true", "hidden": false },
+    { "input": "[\"(]\"]", "expectedOutput": "false", "hidden": false },
+    { "input": "[\"([)]\"]", "expectedOutput": "false", "hidden": true }
+  ]
+}
