@@ -111,6 +111,9 @@ class ProblemMapperTest {
     void toResponseHandlesNullEnumsGracefully() {
         Problem problem = new Problem();
         problem.setSlug("x");
+        problem.setStatus(null);
+        problem.setDifficulty(null);
+
         problem.setTestCases(List.of());
 
         ProblemResponse response = mapper.toResponse(problem);
